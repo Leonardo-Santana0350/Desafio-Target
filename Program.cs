@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 using DesafioTarget.Desafio03;
 using Newtonsoft.Json;
@@ -58,20 +59,24 @@ namespace DesafioTarget
             double lowest = deserialized.Min(x => x.FaturamentoDiario);
             double highest = deserialized.Max(x => x.FaturamentoDiario);
 
+            double soma = 0, media = 0;
+
             foreach (var dados in deserialized)
             {
-                if (dados.FaturamentoDiario <= lowest)
-                {
-                    lowest = dados.FaturamentoDiario;
-                    Console.WriteLine(lowest);
-                }
-
-                else if(dados.FaturamentoDiario >= highest){
-                    highest = dados.FaturamentoDiario;
-                    Console.WriteLine(highest);
-                }
+                soma += dados.Valor;
+                media = soma / 30;
             }
 
+            Console.WriteLine("O menor faturamento possível foi: " + lowest);
+            Console.WriteLine("O maior fautramento possível foi: " + highest);
+
+            foreach (Faturamento fat in deserialized)
+            {
+                if(fat.Valor > media)
+                {
+                    Console.Write("Os dias de faturamento maiores que a média foram: {0}, \n", fat.Dia);
+                }
+            }
 
             //Exercicio05 - Inverter uma String
 
