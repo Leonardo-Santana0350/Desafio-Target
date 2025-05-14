@@ -10,7 +10,7 @@ namespace DesafioTarget
     {
         static void Main(string[] args)
         {
-            /*Desafio 01 - Achando o valor final de Soma
+            //Desafio 01 - Achando o valor final de Soma
             int indice = 13;
             int Soma = 0;
             int K = 0;
@@ -42,7 +42,7 @@ namespace DesafioTarget
                 int temporario = inicio;
                 inicio = espiral;
                 espiral = temporario + espiral;
-            }*/
+            }
 
             //Desafio 03 - Calcular Faturamento a partir de dias marcados
 
