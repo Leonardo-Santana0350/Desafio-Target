@@ -26,6 +26,8 @@ namespace DesafioTarget
             //Valor final de Soma deve ser 91
             Console.WriteLine(Soma);
 
+            Console.WriteLine("----------------------------------");
+
             //Desfio 02 - Sequência de Fibonacci a partir de qualquer número
             Console.Write("A partir de qual número será iniciada a contagem? ");
             int numero = int.Parse(Console.ReadLine());
@@ -33,7 +35,7 @@ namespace DesafioTarget
             //Método para verificar qual número a sequência será iniciada
             Console.Write("A partir de qual número iremos realizar a sequência: ");
             int inicio = int.Parse(Console.ReadLine());
-            int espiral = a + 1;
+            int espiral = inicio + 1;
 
             //metodo de loop utilizando o for 
             for (int i = 0; i < numero; i++)
@@ -44,20 +46,18 @@ namespace DesafioTarget
                 inicio = espiral;
                 espiral = temporario + espiral;
             }
-
+            Console.WriteLine("----------------------------------");
             //Desafio 03 - Calcular Faturamento a partir de dias marcados
 
             //Importante - Utilizado a biblioteca Newtonsoft Json para poder ler e extrair dados a partir do Json
 
-            int dia = 0;
-            int faturamentoDiario = 0;
             //Criação de uma string na qual pode ler o arquivo.json por completo
             string json = System.IO.File.ReadAllText("C:\\Users\\leona\\Downloads\\Dados.json");
 
             //Extração dos dados colocados no Json a partir de variáveis criadas no arquivo Faturamento.Cs na pasta Desafio03
             var deserialized = JsonConvert.DeserializeObject<List<Faturamento>>(json);
-            double lowest = deserialized.Min(x => x.FaturamentoDiario);
-            double highest = deserialized.Max(x => x.FaturamentoDiario);
+            double lowest = deserialized.Min(x => x.Valor);
+            double highest = deserialized.Max(x => x.Valor);
 
             double soma = 0, media = 0;
 
@@ -77,10 +77,11 @@ namespace DesafioTarget
                     Console.Write("Os dias de faturamento maiores que a média foram: {0}, \n", fat.Dia);
                 }
             }
+            Console.WriteLine("----------------------------------");
 
             //Exercicio05 - Inverter uma String
 
-            string nova = Console.ReadLine();
+            string nova = "Paquistão";
 
             //Abrindo o stringBuilder
             StringBuilder sb = new StringBuilder();

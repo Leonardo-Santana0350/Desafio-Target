@@ -21,3 +21,15 @@ C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\DesafioTarget.Assemb
 C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\DesafioTarget.AssemblyInfo.cs
 C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\DesafioTarget.csproj.CoreCompileInputs.cache
 C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\DesafioTarget.sourcelink.json
+C:\Users\leona\Source\Repos\Desafio-Target\bin\Debug\net8.0\DesafioTarget.exe
+C:\Users\leona\Source\Repos\Desafio-Target\bin\Debug\net8.0\DesafioTarget.deps.json
+C:\Users\leona\Source\Repos\Desafio-Target\bin\Debug\net8.0\DesafioTarget.runtimeconfig.json
+C:\Users\leona\Source\Repos\Desafio-Target\bin\Debug\net8.0\DesafioTarget.dll
+C:\Users\leona\Source\Repos\Desafio-Target\bin\Debug\net8.0\DesafioTarget.pdb
+C:\Users\leona\Source\Repos\Desafio-Target\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\DesafioT.CEEE0EB9.Up2Date
+C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\DesafioTarget.dll
+C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\refint\DesafioTarget.dll
+C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\DesafioTarget.pdb
+C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\DesafioTarget.genruntimeconfig.cache
+C:\Users\leona\Source\Repos\Desafio-Target\obj\Debug\net8.0\ref\DesafioTarget.dll
